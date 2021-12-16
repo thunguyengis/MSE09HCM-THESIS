@@ -918,7 +918,7 @@ td {
   color: white;
   font-weight: 600;
   background: rgb(109, 202, 207);
-  background: linear-gradient(45deg, rgba(109, 202, 207, 1) 0%, rgba(42, 39, 106, 1) 80%);
+  background: linear-gradient(45deg, rgb(217 213 79) 0%, rgb(235 52 23) 80%);
 }
 
 .animated_pointer {

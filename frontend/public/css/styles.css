@@ -541,7 +541,7 @@ td {
 .header {
   height: 60px;
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: rgb(141 52 43);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 0 35px;
@@ -918,7 +918,7 @@ td {
   color: white;
   font-weight: 600;
   background: rgb(109, 202, 207);
-  background: linear-gradient(45deg, rgba(109, 202, 207, 1) 0%, rgba(42, 39, 106, 1) 80%);
+  background: linear-gradient(45deg, rgb(221, 218, 114) 0%, rgb(235 52 23) 80%);
 }
 
 .animated_pointer {
@@ -981,7 +981,6 @@ td {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), 0 0 15px rgba(45, 65, 108, .25);
   border-radius: 10px;
   padding: 20px;
-  padding-right: 1em;
 }
 
 #info {
@@ -992,7 +991,7 @@ td {
 }
 
 #info>.bg {
-  background: url("../bg.jpg");
+  background: url("../bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 30%;
@@ -1218,59 +1217,33 @@ td {
   }
 }
 
-.logoht {
-  width: auto;
-  height: auto;
-  display: block;
-  /* position: absolute; */
-  /* left: 30px; */
-  /* margin-top: 1em; */
+.logobk {
+  position: absolute;
+  left: 30px;
 }
 
-.ht-name {
+.bk-name {
   position: absolute;
-  /* left: 205px; */
-  /* padding-top: 0.5em; */
-  font-size: 1em;
-  font-weight: bold;
+  left: 85px;
+  font-size: 14px;
   display: inline-block;
-  /* color: #18191a; */
-  /* font-weight: 600; */
+  color: #18191a;
+  font-weight: 600;
 }
 
-.info {
-  margin-top: 2.5em;
-  font-size: 80%;
-}
-
-.thong-tin-left {
+.thay-tho {
   font-size: 14px;
   position: absolute;
   bottom: 20px;
-  left: 180px;
-  /* text-align: center; */
-  /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); */
-  /* color: white; */
-  /* background: rgb(109, 202, 207);
-  background: linear-gradient(135deg, rgba(42, 39, 106, 1) 20%, rgba(109, 202, 207, 1) 100%); */
-  padding: 5px 25px;
-  font-weight: 500;
-  /* border-radius: var(--message-radius) */
-}
-
-.thong-tin-right {
-  font-size: 14px;
-  position: absolute;
-  bottom: 20px;
-  left: 580px;
-  padding: 5px 25px;
-  font-weight: 500;
-}
-
-#credit {
+  left: 30px;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
   background: rgb(109, 202, 207);
-  background: linear-gradient(135deg, rgba(42, 39, 106, 1) 20%, rgba(109, 202, 207, 1) 100%);
-  color: #fff;
+  background: linear-gradient(135deg, rgb(235 52 23) 20%, rgb(217 213 79) 100%);
+  padding: 5px 25px;
+  font-weight: 500;
+  border-radius: var(--message-radius)
 }
 
 #credit span {
@@ -1305,7 +1278,7 @@ td {
 
 #svth {
   background: rgba(42, 39, 106, 1)!important;
-  background: linear-gradient(45deg, rgba(42, 39, 106, 1) 20%, rgba(109, 202, 207, 1) 100%)!important;
+  background: linear-gradient(135deg, rgb(235 52 23) 20%, rgb(217 213 79) 100%)!important;
   color: white!important;
   right: calc(190px + 50px) !important;
 }
