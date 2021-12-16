@@ -1,0 +1,34 @@
+version: "3"
+
+services:
+  frontend:
+    container_name: chatbot_frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3001
+    expose:
+      - 3001
+    stdin_open: true
+    tty: true
+    links:
+      - backend
+    networks:
+      - chatbot-network
+
+  backend:
+    restart: always
+    container_name: chatbot_backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 4001:4001
+    expose:
+      - 4001
+    networks:
+      - chatbot-network
+
+networks:
+  chatbot-network: null
