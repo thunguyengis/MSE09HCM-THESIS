@@ -1,7 +1,0 @@
-lxml
-parsel
-w3lib
-twisted
-cryptography
-pyOpenSSL
-Scrapy
